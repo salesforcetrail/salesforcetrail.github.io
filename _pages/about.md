@@ -13,7 +13,16 @@ header:
 excerpt: "We are passionated Salesforce developers sharing our findings and experiences. Please don't hesitate to ask me if you have any questions."
 
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6WR493M663"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-6WR493M663');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
 
 ## About us
 Hi there. We are passionate software developers and Salesforce enthusiast.

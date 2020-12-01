@@ -9,7 +9,16 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6WR493M663"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-6WR493M663');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <div class="{{ include.type | default: "list" }}__item" style="position: relative">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <div style="position:relative;">
