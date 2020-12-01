@@ -1,0 +1,146 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+include: ["_pages"]
+locale: "en"
+email: ssalesforcetrail@gmai.com
+description: "Exploring Salesforce"
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: https://salesforcetrail.github.io
+github_username:  salesforcetrail
+title: "SalesforceTrail"
+repository: "salesforcetrail/salesforcetrail.github.io"
+logo: "/assets/images/logo.png"
+
+
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.19.3"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+
+markdown: kramdown
+
+#Custom settings
+words_per_minute: 200
+paginate: 10
+paginate_path: /page:num/
+search: true
+breadcrumbs: false
+timezone: Europe/Amsterdam
+# URL like domain.com/article-name
+permalink: /:title
+
+# Site Author
+author:
+  name             : "SalesforceTrail"
+  avatar           : "/assets/images/avatar.jpg"
+  bio              : "Exploring Salesforce"
+  location         : 
+  email            : ssalesforcetrail@gmail.com
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "salesforcetrail"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : 
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : 
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+
+
+# Add Disqus comments
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "SalesforceTrail"
+
+# SEO (Maybe not needed)
+# google-site-verification: "Le0L-n9qFb4lNEjW3x3951DXYKxSXqdZqR2iUIbjxWI"
+
+# Analytics
+analytics:
+  provider      : "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id : "G-LZR0L7QFD9"
+
+# # Site Footer
+# footer:
+  # links:
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     url: "https://instagram.com/"
+  #   - label: "Facebook"
+  #     icon: "fab fa-fw fa-facebook-square"
+  #     url: "https://instagram.com/"
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     url: "https://instagram.com/"
+  #   - label: "GitLab"
+  #     icon: "fab fa-fw fa-gitlab"
+  #     url: "https://instagram.com/"
+  #   - label: "Bitbucket"
+  #     icon: "fab fa-fw fa-bitbucket"
+  #     url: "https://instagram.com/"
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     url: "https://instagram.com/"
+
+#
+#
+# collections:
+#   projects:
+#     output: true
+#     permalink: /:collection/:name/
+#
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      share: true
+      related: true
+      author_profile: true
+      read_time: true
+      comments:  true
