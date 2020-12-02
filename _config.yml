@@ -75,9 +75,9 @@ author:
 
 # Add Disqus comments
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "disqus"
   disqus:
-    shortname            : https-www-salesforcetrail-com 
+    shortname: "https-www-salesforcetrail-com"
 
 # SEO (Maybe not needed)
 # google-site-verification: "Le0L-n9qFb4lNEjW3x3951DXYKxSXqdZqR2iUIbjxWI"
