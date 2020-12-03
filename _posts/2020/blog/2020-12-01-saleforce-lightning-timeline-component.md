@@ -9,7 +9,7 @@ toc_sticky: true
 
 header:
   teaser: assets/images/2020/blog/salesforce-lightning-timeline-component/timelinecomponent-header.jpg
-  overlay_image: assets/images/2020/blog/salesforce-lightning-timeline-componenttimelinecomponent-header.jpg
+  overlay_image: assets/images/2020/blog/salesforce-lightning-timeline-component/timelinecomponent-header.jpg
 ---
 
 ## Intro
