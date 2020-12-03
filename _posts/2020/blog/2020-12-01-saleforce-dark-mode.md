@@ -25,7 +25,7 @@ Go to Setup > Lightning Extension and activate the Dark Mode flag
 ![Lightning Extension Setup](/assets/images/2020/blog/salesforce-dark-mode-setup.png)
 
 ### Install the Lightning Extension for Chrome
-Find the Lighting Extension in the [Chrome Web Store](https://chrome.google.com/webstore/search/lightning%20extension) and install.
+Find the Lighting Extension in the [Chrome Web Store](https://chrome.google.com/webstore/search/lightning%20extension){:target="_blank"} and install.
 ![Chrome Web Store](/assets/images/2020/blog/salesforce-dark-mode-chrome-web-store.png)
 
 ### Enable the Dark mode from the extension
