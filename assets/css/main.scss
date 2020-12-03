@@ -201,7 +201,11 @@ NAVIGATION BAR
   font-weight: normal;
 }
 
-
+article img {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 // .masthead {
 //   background-color: #D3D3D3;
 //   border-bottom: 1px solid #D3D3D3;

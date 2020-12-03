@@ -28,7 +28,6 @@ The first thing is to install the component from the AppExchange.
 
 Find in AppExchange the Lightning Timeline Component. You can find it [here](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0yN3UAJ){:target="_blank"}
 ![AppExchange Lightning Timeline Component](/assets/images/2020/blog/salesforce-lightning-timeline-component/salesforce-lightning-timeline-component-appexchange.png)
-
 Click on "Get it Now" and Install, login and select your Salesforce account:
 ![Select Your Salesforce Account](/assets/images/2020/blog/salesforce-lightning-timeline-component/salesforce-lightning-timeline-component-login.png)
 In the following screen click on "Confirm and Install"
@@ -38,8 +37,7 @@ Validate again in your org, and the installation screen will be shown. Select th
 Verify in > Setup > Installed Packages that the component is installed:
 ![Component Install Verification](/assets/images/2020/blog/salesforce-lightning-timeline-component/salesforce-lightning-timeline-component-verify.png.png)
 Now we have the component installed in our org. Let's go to configure and use it!!
-
-### Playing with the Timeline Component
+## Playing with the Timeline Component
 In your application find the Timeline object. And go to Timeline Configurations Screen:
 ![Timeline Configurations Screen](/assets/images/2020/blog/salesforce-lightning-timeline-component/salesforce-lightning-timeline-component-timelineconfig.png)
 Create a new one, specifying the object and save:
