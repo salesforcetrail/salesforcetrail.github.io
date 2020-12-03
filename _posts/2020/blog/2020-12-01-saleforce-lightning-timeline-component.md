@@ -1,15 +1,15 @@
 ---
 title:  "Salesforce Lightning Timeline Component"
 excerpt: See related records of any object as a timeline (similar to to the standard activity timeline)
-date:   2020-12-03 00:00:00 +0100
+date:   2020-12-02 00:00:00 +0100
 categories: blog
 toc: true
 toc_label: On this pages
 toc_sticky: true
 
 header:
-  teaser: assets/images/2020/blog/salesforce-dark-mode-header.jpg
-  overlay_image: assets/images/2020/blog/salesforce-dark-mode-header.jpg
+  teaser: assets/images/2020/blog/salesforce-lightning-timeline-component/timelinecomponent-header.jpg
+  overlay_image: assets/images/2020/blog/salesforce-lightning-timeline-componenttimelinecomponent-header.jpg
 ---
 
 ## Intro
