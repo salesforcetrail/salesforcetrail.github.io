@@ -95,5 +95,5 @@ Data Mask **disables the following automations** during execution:
 ## Verify the Job Execution
 
 Once the job is finished. We can view in the job list the Last Ran date time in the status field.
-
+![Data Mask Status Finished](/assets/images/2020/blog/mask-sensitive-data-in-full-and-partial-sanboxes-with-data-mask/2020-12-10-13-24-26.png)
 In the "Run Logs" tab under the Data Mask app we can verify all the steps of the process.
